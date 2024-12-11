@@ -2,7 +2,7 @@ import Head from "next/head"
 
 //les infos attendus dans le composant
 interface Props {
-    title : string, // avec le ? peut être optionnel
+    title? : string, // avec le ? peut être optionnel
     description : string
 }
 
