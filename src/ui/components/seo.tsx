@@ -1,5 +1,4 @@
 import Head from "next/head"
-import { title } from "process"
 
 //les infos attendus dans le composant
 interface Props {
@@ -17,6 +16,8 @@ export const Seo = ({title, description} : Props) => {
                     name="description"
                     content= {description}
                 />
+
+                {/* information standard */}
                 <meta 
                     name="viewport"
                     content="width=device-width, initial-scale=1"
